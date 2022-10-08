@@ -1,0 +1,43 @@
+{
+  "name": "recipe",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@vue/apollo-composable": "^4.0.0-alpha.19",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.24.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "pinia": "^2.0.22",
+    "uuid": "^9.0.0",
+    "vee-validate": "^4.6.9",
+    "vue": "^3.2.39",
+    "vue-apollo": "^3.1.0",
+    "vue-router": "^4.1.5",
+    "vue-uuid": "^3.0.0",
+    "vuex": "^4.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "postcss.config.js",
+  "author": "surafel",
+  "license": "ISC"
+}
