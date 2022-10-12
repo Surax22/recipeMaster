@@ -5,6 +5,7 @@ module.exports = {
         name: 'recipe',
         // URL to the GraphQL API
         url: 'http://localhost:8081/v1/graphql',
+        // ufpsjeopd7
       },
       // Files processed by the extension
       includes: [

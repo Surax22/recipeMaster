@@ -8,7 +8,7 @@ const { user } = storeToRefs(authStore);
 </script>
 
 <template>
-    <div v-if="user">
+    <div v-if="user" class="  ">
         <h1>Hi {{user.firstName}}!</h1>
         <p><router-link to="/users">Manage Users</router-link></p>
     </div>

@@ -1,8 +1,6 @@
 <template>
   <body>
-    
-  
-        <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+     <div class="flex mt-16 justify-center items-center flex-wrap h-full g-6 text-gray-800">
       <div class="xl:w-10/12">
         <div class="block bg-white shadow-lg rounded-lg">
           <div class="lg:flex lg:flex-wrap g-0">

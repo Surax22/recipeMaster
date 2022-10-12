@@ -3,8 +3,7 @@ import { useAuthStore, useAlertStore } from './../stores';
 import { Home } from './../views';
 import accountRoutes from './account.routes';
 import usersRoutes from './users.routes';
-// import  from './../components/Recipe/index'
-import { AddRecipes,ProductDisplay , AppHeder, catagories} from './../components/Recipe'
+import { AddRecipes,ProductDisplay ,Footer, AppHeder} from './../components/Recipe'
 
 
 export const router = createRouter({
@@ -14,8 +13,8 @@ export const router = createRouter({
         { path: '/', components: {
             default:Home,
             cards:ProductDisplay,
-            smallCards:catagories,
-            Header:AppHeder
+            Header:AppHeder,
+            Footer:Footer
         }
      },
         { ...accountRoutes },
@@ -25,12 +24,11 @@ export const router = createRouter({
             path: '/AddRecipes',
          components:{
             default:AddRecipes,
-            Header:AppHeder
-         }
-        }
-
-
+            Header:AppHeder,
+            Footer:Footer
+         },
         
+        },      
     ]
 });
 
