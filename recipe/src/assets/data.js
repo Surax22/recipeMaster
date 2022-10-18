@@ -1,4 +1,12 @@
 import gql from "graphql-tag";
+// const ALL_CAT = gql`
+// query ALL_CAT{
+//   categories{
+//     cat_id
+//     cat_name
+//   }
+// }
+//  `;
  
 export const COM =gql` 
 query COM{
@@ -29,7 +37,6 @@ export const REC = gql`
               category_id
                   category{
                     cat_id
-                    cat_img
                     cat_name
                   }
               comment{
@@ -51,6 +58,7 @@ mutation Recipes(
   $duration: String!
   $ingridient: String!
   $discription: String!
+  $category_id: Int!
 ) {
   insert_recipes(
     objects: [
@@ -60,15 +68,19 @@ mutation Recipes(
         duration:$duration 
         ingridient:$ingridient
         discription:$discription
+        category_id:$category_id
+        
+        
       }
     ]
       ){
     returning {
       id
+      
     }
   }
 }
 `;
-;
+
 
 

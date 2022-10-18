@@ -24,9 +24,10 @@
                         </div>
                               
                         <div>
+                          
                           <img src="https://abyssiniarestaurant.co/wp-content/uploads/2019/05/KITFO.jpg"
-                                class="card-img-top" alt="Laptop" />
-                          <p >{{ recipes.image }}</p>
+                                class="card-img-top" alt="recipe" />
+                          <div>{{recipes.img}}</div> 
                         </div>
                       </div>
                             <ul class="flex justify-center mb-6">
