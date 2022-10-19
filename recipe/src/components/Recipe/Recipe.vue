@@ -25,9 +25,8 @@
                               
                         <div>
                           
-                          <img src="https://abyssiniarestaurant.co/wp-content/uploads/2019/05/KITFO.jpg"
-                                class="card-img-top" alt="recipe" />
-                          <div>{{recipes.img}}</div> 
+                          <img class="card-img-top" :src="recipes.image" alt="recipe">
+
                         </div>
                       </div>
                             <ul class="flex justify-center mb-6">
