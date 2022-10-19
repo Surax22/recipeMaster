@@ -3,6 +3,7 @@
 
 # To run the frontend
 cd recipe
+npm install
 npm run dev
 
 This template should help get you started developing with Vue 3 in Vite.
